@@ -1,0 +1,36 @@
+{
+    "nav": {
+        "skills": "Skills",
+        "education": "Education",
+        "about": "About",
+        "contacts": "Contacts",
+        "language": "Language"
+    },
+    "me": {
+        "surname": "Belikov",
+        "name": "Grigory",
+        "dev": "Front-End Developer"
+    },
+    "softSkills": {
+        "ambitious": "Ambitious",
+        "responsible": "Responsible",
+        "nonConflict": "Non - conflict",
+        "benevolent": "Benevolent"
+    },
+    "skills": {
+        "title": "Skills"
+    },
+    "education": {
+        "title": "Education",
+        "college_name": "College: Moscow College of Architecture and Urban Planning",
+        "specialization": "Specialization: Applied computer science (in various industries)",
+        "years_of_study": "Years of study: 09/2017 - 06/2021",
+        "about_education": ""
+    },
+    "about": {
+        "title": "About"
+    },
+    "contacts": {
+        "title": "Contacts"
+    }
+}

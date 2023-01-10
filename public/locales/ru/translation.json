@@ -1,0 +1,36 @@
+{
+    "nav": {
+        "skills": "Навыки",
+        "education": "Образование",
+        "about": "Обо мне",
+        "contacts": "Контакты",
+        "language": "Язык"
+    },
+    "me": {
+        "surname": "Беликов",
+        "name": "Григорий",
+        "dev": "Front-End Разработчик"
+    },
+    "softSkills": {
+        "ambitious": "Целеустремлённый",
+        "responsible": "Ответственный",
+        "nonConflict": "Неконфликтный",
+        "benevolent": "Доброжелательный"
+    },
+    "skills": {
+        "title": "Навыки"
+    },
+    "education": {
+        "title": "Образование",
+        "college_name": "Колледж: Московский Колледж Архитектуры и Градостроительства",
+        "specialization": "Специальность: Прикладная информатика (по отраслям)",
+        "years_of_study": "Годы обучения: 09/2017 - 06/2021",
+        "about_education": ""
+    },
+    "about": {
+        "title": "Обо мне"
+    },
+    "contacts": {
+        "title": "Контакты"
+    }
+}

@@ -1,0 +1,125 @@
+$nav-blur: 12px;
+$nav-bg-c: rgba(250, 253, 255, 0.05);
+$nav-border-bottom: rgba(111, 75, 255, 0.4);
+
+.nav {
+    box-sizing: border-box;
+    z-index: 5000;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 128px;
+    width: 100%;
+    background: $nav-bg-c;
+    backdrop-filter: blur($nav-blur);
+    border-bottom: 2px solid rgba(42, 0, 255, 0);
+    transition: all 0.3s ease-in-out;
+
+    @media (max-width: 768px) {
+        padding: 16px 10px;
+        gap: 16px;
+        justify-content: center;
+    }
+
+    .links {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 32px;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+
+        a {
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+    }
+
+    button {
+        display: flex;
+        align-items: center;
+        background: transparent;
+        border: none;
+        outline: none;
+        gap: 16px;
+    }
+
+    button,
+    a {
+        user-select: none;
+        transition: all 0.5s ease;
+        font-family: "Comfortaa", cursive;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #ffffff;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .brand {
+        font-size: 20px;
+        color: white;
+        font-weight: 700;
+        transition: all 0.5s ease;
+    }
+
+    &.Main {
+        .brand {
+            color: #cd8edb;
+        }
+
+        button:hover,
+        a:hover {
+            color: #f2bfff;
+        }
+    }
+
+    &.Skills {
+        .links a.active {
+            color: #7a6bd8;
+        }
+        .brand {
+            color: #7a6bd8;
+        }
+
+        button:hover,
+        a:hover {
+            color: rgb(213, 169, 255);
+        }
+    }
+
+    &.Education {
+        .links a.active {
+            color: rgb(36, 139, 195);
+        }
+        .brand {
+            color: rgb(36, 139, 195);
+        }
+
+        button:hover,
+        a:hover {
+            color: rgb(18, 164, 244);
+        }
+    }
+
+    &.About {
+        .links a.active {
+            color: rgb(166, 206, 117);
+        }
+        .brand {
+            color: rgb(166, 206, 117);
+        }
+
+        button:hover,
+        a:hover {
+            color: rgb(218, 255, 163);
+        }
+    }
+}
